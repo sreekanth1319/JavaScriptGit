@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<title>Operators</title>
+	</head>
+	<body>
+		<h3>Arthematic Operation</h3>
+		<label for="firstVar">Insert first value:</label>
+		<input id="firstVar"/></br></br>
+		<label for="secondVar">Insert second value:</label>
+		<input id="secondVar"/></br></br>
+		<button onclick="add()">ADDITION</button>
+		<p id="addOpe"></p></br></br>
+		<button onclick="sub()">SUBTRACTION</button>
+		<p id="subOpe"></p></br></br>
+		<h3>Logical Operation</h3>
+		<label for="iniVal">Insert first value:</label>
+		<input id="iniVal"/><p class="valid alert"></p></br></br>
+		<label for="nextVal">Insert second value:</label>
+		<input id="nextVal"/><p class="valid alert"></p>
+		<button onclick="logAdd();validation();">AND operation</button>
+		<p id="finalAnd"></p>
+		
+		
+	<script src="operators.js"></script>
+	</body>
+</html>
